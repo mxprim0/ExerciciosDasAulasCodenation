@@ -6,9 +6,24 @@ namespace OrientacaoObjeto
     {
         static void Main(string[] args)
         {
-            PessoaFisica pessoaFisica = new PessoaFisica();
-            PessoaJuridica pessoaJuridica = new PessoaJuridica();
+            string nome = "Dan";
+            string endereco = "Rua dos bobos Nº 0";
 
+            Pessoa pessoa = new Pessoa(nome, endereco);
+
+            PessoaFisica pessoaFisica = new PessoaFisica(nome, endereco);
+            pessoaFisica.ExibirNome();
+
+            PessoaJuridica pessoaJuridica = new PessoaJuridica("Empresa XPTO", "Rua 13 de maio");
+
+            pessoaJuridica.ExibirNome();
+
+            Console.ReadKey();
+
+            /*
+            PessoaFisica pessoaFisica = new PessoaFisica();
+            PessoaJuridica pessoaJuridica = new PessoaJuridica(); 
+            
             pessoaFisica.CPF = "123.456.789.12";
             pessoaFisica.RG = "123456-7";
             pessoaFisica.Nome = "Dan";
@@ -19,7 +34,7 @@ namespace OrientacaoObjeto
 
             pessoaFisica.Criar(pessoaFisica);
             pessoaJuridica.Criar(pessoaJuridica);
-
+            */
 
 
             // a variavel "pessoa" está recebendo a classe "Pessoa"
