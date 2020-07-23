@@ -32,7 +32,7 @@ namespace OrientacaoObjeto
             Endereco = endereco;
         }
 
-        public void Inserir(Pessoa pessoa) { }
+        // public void Inserir(Pessoa pessoa) { }
         public virtual void ExibirNome() { }
 
 

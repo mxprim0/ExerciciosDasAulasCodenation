@@ -13,10 +13,17 @@ namespace OrientacaoObjeto
 
             PessoaFisica pessoaFisica = new PessoaFisica(nome, endereco);
             pessoaFisica.ExibirNome();
+            pessoaFisica.Apelido = "Apelido da Dan";
 
             PessoaJuridica pessoaJuridica = new PessoaJuridica("Empresa XPTO", "Rua 13 de maio");
 
             pessoaJuridica.ExibirNome();
+
+            IPessoaRepositorio pessoaRepositorio = new PessoaRepositorio();
+
+            string apelido = pessoaRepositorio.RetornaApelido(pessoaFisica);
+
+            Console.WriteLine($"Apelido da Pessoa Fisica : {apelido}");     
 
             Console.ReadKey();
 
