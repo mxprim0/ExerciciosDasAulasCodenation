@@ -31,7 +31,7 @@ namespace OrientacaoObjeto
 
         public override void ExibirNome()
         {
-            Console.WriteLine($"Pessoa Fisica - Exibir Nome:(Nome)");
+            Console.WriteLine($"Pessoa Fisica - Exibir Nome:{Nome}");
 
         }
 

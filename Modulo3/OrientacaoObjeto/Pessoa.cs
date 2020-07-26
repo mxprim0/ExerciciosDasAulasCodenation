@@ -33,7 +33,11 @@ namespace OrientacaoObjeto
         }
 
         // public void Inserir(Pessoa pessoa) { }
-        public virtual void ExibirNome() { }
+        public virtual void ExibirNome() 
+        //permite que a classe que herda da classe pessoa possa sobrescrever este metodo utilizando a palavra reservada "override" 
+        {
+            Console.WriteLine($"Pessoa - Exibir Nome: {_nome}");
+        }
 
 
 
