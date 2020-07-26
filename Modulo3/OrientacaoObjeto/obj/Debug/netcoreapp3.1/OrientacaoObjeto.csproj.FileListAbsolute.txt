@@ -1,0 +1,13 @@
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\bin\Debug\netcoreapp3.1\OrientacaoObjeto.exe
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\bin\Debug\netcoreapp3.1\OrientacaoObjeto.deps.json
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\bin\Debug\netcoreapp3.1\OrientacaoObjeto.runtimeconfig.json
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\bin\Debug\netcoreapp3.1\OrientacaoObjeto.runtimeconfig.dev.json
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\bin\Debug\netcoreapp3.1\OrientacaoObjeto.dll
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\bin\Debug\netcoreapp3.1\OrientacaoObjeto.pdb
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\netcoreapp3.1\OrientacaoObjeto.csprojAssemblyReference.cache
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\netcoreapp3.1\OrientacaoObjeto.AssemblyInfoInputs.cache
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\netcoreapp3.1\OrientacaoObjeto.AssemblyInfo.cs
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\netcoreapp3.1\OrientacaoObjeto.csproj.CoreCompileInputs.cache
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\netcoreapp3.1\OrientacaoObjeto.dll
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\netcoreapp3.1\OrientacaoObjeto.pdb
+C:\Users\Danielly\Desktop\ExerciciosDasAulasCodenation\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\netcoreapp3.1\OrientacaoObjeto.genruntimeconfig.cache
