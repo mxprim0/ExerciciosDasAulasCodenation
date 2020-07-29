@@ -36,13 +36,17 @@ namespace OrientacaoObjeto
         }
       
         
-        public IDictionary<int, string> RetornaDictionary()
+        /*public IDictionary<int, string> RetornaDictionary()
         {
             return CargaExemploDictionary();
         }
+        */
         
-        
-        public List<KeyValuePair<int, Veiculo>> RetornaDictionaryVeiculo()
+        public List<KeyValuePair<int, string>> RetornaDictionaryTypeList()
+        {
+            var dados = CargaExemploDictionary().OrderBy(x => x.Value).ToList();
+            return dados;
+        }
 
 
         private ICollection<Veiculo> CargaExemploCollection()
@@ -86,7 +90,23 @@ namespace OrientacaoObjeto
             valores.Add(3, "Carlos");
             return valores;
         }
-        private IDictionary<int, Veiculo> CargaExemploDictionaryClasseVeiculo()
         
+        private IDictionary<int, Veiculo> CargaExemploDictionaryClasseVeiculo()
+        {
+            IDictionary<int, Veiculo> valores = new Dictionary<int, Veiculo>()
+            {
+                { 1, new Veiculo { Id = 1, Nome = "KA Sedan", Marca = "Ford", AnoFabricacao = 2018 } },
+                { 2, new Veiculo { Id = 2, Nome = "Ecosport", Marca = "Ford", AnoFabricacao = 2017 } },
+                { 3, new Veiculo { Id = 3, Nome = "Ranger", Marca = "Ford", AnoFabricacao = 2016 } },
+                { 4, new Veiculo { Id = 4, Nome = "Mustang", Marca = "Ford", AnoFabricacao = 2015 } }
+            };
+            return valores;
+        }
+
+        public IDictionary<int,string> RetornaDictionary()
+        {
+            var dados = (Dictionary<int, string>)CargaExemploDictionary().OrderBy(x => x.Value);
+            return dados;
+        }
     }
 }
